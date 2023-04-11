@@ -11,85 +11,46 @@
                 <div class="header__area-menubar-center">
                     <div class="header__area-menubar-center-menu menu-responsive">
                         <ul id="mobilemenu">
-                            <li class="menu-item-has-children"><a href="#">Home</a>
+                            <li><a href="pricing.html">HOME</a></li>
+                            <li class="menu-item-has-children"><a href="#">ABOUT US</a>
                                 <ul class="sub-menu">
-                                    <li><a href="index.html">Home 01</a></li>
-                                    <li><a href="index-two.html">Home 02</a></li>
-                                    <li><a href="index-three.html">Home 03</a></li>
+                                    <li><a href="index.html">ABOUT COMPANY</a></li>
+                                    <li><a href="index-two.html">WHY CHOOSE BDVAMC?</a></li>
+                                    <li><a href="index-three.html">MISSION & VISSION</a></li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#">Pages</a>
+
+                            <li class="menu-item-has-children"><a href="#">Fundes</a>
                                 <ul class="sub-menu">
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li class="menu-item-has-children"><a href="#">Services</a>
+                                    <li class="menu-item-has-children"><a href="#">BDV AMC FUNDS</a>
                                         <ul class="sub-menu">
-                                            <li><a href="services.html">Services 01</a></li>
-                                            <li><a href="services-two.html">Services 02</a></li>
-                                            <li><a href="services-right-sidebar.html">Single Right Sidebar</a></li>
-                                            <li><a href="services-left-sidebar.html">Single Left Sidebar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="pricing.html">Price Plans</a></li>
-                                    <li><a href="faq.html">FAQ's</a></li>
-                                    <li><a href="testimonial.html">Testimonials</a></li>
-                                    <li class="menu-item-has-children"><a href="#">Teams</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="team-filter.html">Team Filter</a></li>
-                                            <li><a href="team.html">Team 01</a></li>
-                                            <li><a href="team-two.html">Team 02</a></li>
-                                            <li><a href="team-three.html">Team 03</a></li>
-                                            <li><a href="team-single.html">Team Single</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="request-quote.html">Request Quote</a></li>
-                                    <li><a href="404-error.html">404 Page</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#">Project</a>
-                                <ul class="sub-menu">
-                                    <li><a href="project-filter.html">Project Filter</a></li>
-                                    <li class="menu-item-has-children"><a href="#">Project Grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="project-two.html">2 Columns</a></li>
-                                            <li><a href="project-three.html">3 Columns</a></li>
-                                            <li><a href="project-four.html">4 Columns</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="project-single.html">Project Single</a></li>
-                                </ul>
-                            </li>
-                            <li class="menu-item-has-children"><a href="#">Blog</a>
-                                <ul class="sub-menu">
-                                    <li class="menu-item-has-children"><a href="#">Blog Grid</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog-grid-two.html">2 Columns</a></li>
-                                            <li><a href="blog-grid-three.html">3 Columns</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">Blog Standard</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="standard-left-sidebar.html">Left SideBar</a></li>
-                                            <li><a href="standard-full-width.html">Full Width</a></li>
-                                            <li><a href="standard-right-sidebar.html">Right SideBar</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="#">Blog Single</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="single-left-sidebar.html">Left SideBar</a></li>
-                                            <li><a href="single-full-width.html">Full Width</a></li>
-                                            <li><a href="single-right-sidebar.html">Right SideBar</a></li>
+                                            <li><a href="project-two.html">Reports</a></li>
+                                            <li><a href="project-three.html">Downloads</a></li>
                                         </ul>
                                     </li>
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children"><a href="#">Contact</a>
+
+                            <li class="menu-item-has-children"><a href="#">Knowledge</a>
                                 <ul class="sub-menu">
-                                    <li><a href="contact.html">Contact Style 01</a></li>
-                                    <li><a href="contact-two.html">Contact Style 02</a></li>
-                                    <li><a href="contact-three.html">Contact Style 03</a></li>
-                                    <li><a href="contact-four.html">Contact Style 04</a></li>
+                                    <li class="menu-item-has-children"><a href="#">News & Events</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="project-two.html">News</a></li>
+                                            <li><a href="project-three.html">Events</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="project-two.html">Frequently Asked Questions</a></li>
                                 </ul>
                             </li>
+
+                            <li class="menu-item-has-children"><a href="#">TEAMS</a>
+                                <ul class="sub-menu">
+                                    <li><a href="index.html">BOARD OF DIRECTORS</a></li>
+                                    <li><a href="index-two.html">MANAGEMENT TEAM</a></li>
+                                </ul>
+                            </li>
+
+                            <li><a href="pricing.html">Contact US</a></li>
                         </ul>
                     </div>
                 </div>
