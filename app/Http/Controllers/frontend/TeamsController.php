@@ -11,4 +11,9 @@ class TeamsController extends Controller
     {
         return view('frontend.teams.director');
     }
+
+    public function management()
+    {
+        return view('frontend.teams.management');
+    }
 }

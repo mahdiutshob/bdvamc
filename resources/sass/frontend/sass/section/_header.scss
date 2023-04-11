@@ -14,33 +14,40 @@ Menu Bar Sticky CSS
         background: var(--bg-white);
         display: block;
     }
+
     @keyframes header_sticky {
         0% {
             top: -250px;
         }
+
         100% {
             top: 0;
         }
     }
 }
+
 .header__sticky.header__sticky-sticky-menu {
     & .header__area {
         background: var(--bg-heading-color);
     }
 }
+
 /*==========================================================================
 Menu Bar CSS
 ==========================================================================*/
 .header__area {
     padding: 0 30px;
+
     &-menubar {
         display: flex;
         justify-content: space-between;
         align-items: center;
+
         &-left {
             &-logo {
                 a {
                     display: inline-block;
+
                     img {
                         max-width: 165px;
                         position: relative;
@@ -49,26 +56,32 @@ Menu Bar CSS
                 }
             }
         }
+
         &-center {
             &.two {
-                margin-left: 40px;                
+                margin-left: 40px;
             }
-            &-menu {                
+
+            &-menu {
                 ul {
                     padding: 0;
                     margin: 0;
+
                     li {
                         display: inline-block;
                         position: relative;
                         list-style: none;
-                        &:hover > a {
+
+                        &:hover>a {
                             color: var(--primary-color-1);
                         }
-                        &:hover > .sub-menu {
+
+                        &:hover>.sub-menu {
                             transform: scale(1, 1);
                             opacity: 1;
                             visibility: visible;
                         }
+
                         .sub-menu {
                             position: absolute;
                             background: var(--bg-white);
@@ -82,11 +95,13 @@ Menu Bar CSS
                             text-align: left;
                             transform: scale(1, 0);
                             transform-origin: 0 0;
+
                             li {
                                 display: block;
                                 margin: 0;
                                 border-bottom: 1px solid var(--border-color-2);
-                                position: relative;                                
+                                position: relative;
+
                                 &::after {
                                     position: absolute;
                                     content: '';
@@ -98,6 +113,7 @@ Menu Bar CSS
                                     top: 50%;
                                     transform: translateY(-50%);
                                 }
+
                                 a {
                                     color: var(--text-heading-color);
                                     padding: 12px 20px;
@@ -106,29 +122,35 @@ Menu Bar CSS
                                     text-transform: capitalize;
                                     font-weight: 600;
                                 }
+
                                 .sub-menu {
                                     left: 100%;
                                     top: -2px;
                                 }
+
                                 &:hover {
-                                    > a {
+                                    >a {
                                         color: var(--primary-color-1);
                                         padding-left: 25px;
                                     }
+
                                     &::after {
                                         height: 100%;
                                     }
                                 }
                             }
-                            li:last-child{
+
+                            li:last-child {
                                 border: none;
                             }
+
                             .menu-item-has-children {
                                 a {
                                     &::before {
                                         right: 28px;
                                         background: var(--text-heading-color);
                                     }
+
                                     &::after {
                                         right: 25px;
                                         background: var(--text-heading-color);
@@ -136,12 +158,14 @@ Menu Bar CSS
                                 }
                             }
                         }
+
                         ul {
-                            .sub-menu li .sub-menu{
+                            .sub-menu li .sub-menu {
                                 color: var(--text-heading-color);
                                 cursor: pointer;
                             }
                         }
+
                         a {
                             color: var(--text-heading-color);
                             display: block;
@@ -149,13 +173,15 @@ Menu Bar CSS
                             font-size: 15px;
                             line-height: 24px;
                             transition: all 0.4s ease-out 0s;
-                            text-transform: uppercase;      
-                            padding: 43px 32px;   
-                            font-family: var(--heading-font);              
+                            text-transform: uppercase;
+                            padding: 43px 32px;
+                            font-family: var(--heading-font);
                         }
-                        &.menu-item-has-children > {
+
+                        &.menu-item-has-children> {
                             a {
                                 position: relative;
+
                                 &::before {
                                     content: '';
                                     position: absolute;
@@ -165,8 +191,9 @@ Menu Bar CSS
                                     width: 2px;
                                     height: 8px;
                                     background: var(--bg-heading-color);
-                                    transition: all 0.3s ease;        
+                                    transition: all 0.3s ease;
                                 }
+
                                 &::after {
                                     content: '';
                                     position: absolute;
@@ -175,16 +202,18 @@ Menu Bar CSS
                                     right: 20px;
                                     width: 8px;
                                     height: 2px;
-                                    background: var(--bg-heading-color);    
+                                    background: var(--bg-heading-color);
                                 }
                             }
                         }
+
                         &.menu-item-has-children {
-                            &:hover > a {
+                            &:hover>a {
                                 &::before {
                                     transform: translateY(-50%) rotate(90deg);
-                                    opacity: 0;  
+                                    opacity: 0;
                                 }
+
                                 &::after {
                                     background: var(--primary-color-1);
                                 }
@@ -192,6 +221,7 @@ Menu Bar CSS
                         }
                     }
                 }
+
                 &.two {
                     ul {
                         li {
@@ -200,27 +230,32 @@ Menu Bar CSS
                                     &::after {
                                         background: var(--primary-color-2);
                                     }
-                                    &:hover > a {
+
+                                    &:hover>a {
                                         color: var(--primary-color-2);
                                     }
                                 }
                             }
-                            &:hover > a {
+
+                            &:hover>a {
                                 color: var(--primary-color-2);
                             }
+
                             a {
-                                padding: 31px 32px;         
+                                padding: 31px 32px;
                             }
+
                             &.menu-item-has-children {
-                                &:hover > a {
+                                &:hover>a {
                                     &::after {
                                         background: var(--primary-color-2);
                                     }
                                 }
                             }
                         }
-                    }                   
+                    }
                 }
+
                 &.three {
                     ul {
                         li {
@@ -229,36 +264,43 @@ Menu Bar CSS
                                     &::after {
                                         background: var(--primary-color-3);
                                     }
-                                    &:hover > a {
+
+                                    &:hover>a {
                                         color: var(--primary-color-3);
                                     }
                                 }
                             }
-                            &:hover > a {
+
+                            &:hover>a {
                                 color: var(--primary-color-3);
                             }
+
                             a {
-                                padding: 38px 32px;         
+                                padding: 38px 32px;
                             }
+
                             &.menu-item-has-children {
-                                &:hover > a {
+                                &:hover>a {
                                     &::after {
                                         background: var(--primary-color-3);
                                     }
                                 }
                             }
                         }
-                    }                   
+                    }
                 }
             }
         }
+
         &-right {
             display: flex;
             align-items: center;
             justify-content: space-between;
+
             &-box {
                 display: flex;
                 align-items: center;
+
                 &-search {
                     &-icon {
                         i {
@@ -270,12 +312,14 @@ Menu Bar CSS
                             font-size: 20px;
                             font-weight: 400;
                         }
+
                         &.two {
                             i {
                                 color: var(--text-white);
                             }
                         }
                     }
+
                     &-box {
                         position: fixed;
                         bottom: 0;
@@ -287,6 +331,7 @@ Menu Bar CSS
                         z-index: 9999;
                         transition: all 0.5s ease-out;
                         overflow: hidden;
+
                         form {
                             position: absolute;
                             top: 50%;
@@ -295,11 +340,13 @@ Menu Bar CSS
                             width: 55%;
                             transition: all 0.5s ease-out;
                         }
+
                         input {
                             background: var(--bg-white);
                             color: var(--text-heading-color);
                             border: 0;
                         }
+
                         button {
                             position: absolute;
                             right: 0;
@@ -311,30 +358,36 @@ Menu Bar CSS
                             width: 60px;
                             height: 60px;
                             line-height: 60px;
-                            text-align: center;                            
+                            text-align: center;
                         }
+
                         &.active {
                             height: 100%;
                             top: 0;
+
                             &.header__area-menubar-right-box-search-box form {
-                                transform: translate(-50%, -50%) scale(1);                                
+                                transform: translate(-50%, -50%) scale(1);
                             }
                         }
+
                         &-icon {
                             position: absolute;
                             right: 50px;
                             top: 50px;
                             font-size: 22px;
                             color: var(--text-white);
-                            cursor: pointer;				
+                            cursor: pointer;
                             transform: rotate(0deg);
+
                             &:hover {
-                                animation: rotate 0.4s ease 0s;			
+                                animation: rotate 0.4s ease 0s;
                             }
+
                             i {
                                 cursor: pointer;
                                 position: relative;
                                 z-index: 9;
+
                                 &::before {
                                     display: block;
                                 }
@@ -342,6 +395,7 @@ Menu Bar CSS
                         }
                     }
                 }
+
                 &-sidebar {
                     &-popup {
                         &-contact {
@@ -349,56 +403,69 @@ Menu Bar CSS
                             padding: 40px 0;
                             border-top: 1px solid var(--color-19);
                             border-bottom: 1px solid var(--color-19);
+
                             &-item {
                                 display: flex;
                                 margin-bottom: 25px;
                                 gap: 25px;
+
                                 &-icon {
                                     margin-top: 8px;
                                     width: 30px;
+
                                     i {
                                         color: var(--primary-color-1);
-                                        font-size: 30px;                
+                                        font-size: 30px;
                                     }
                                 }
+
                                 &-content {
                                     span {
                                         color: var(--color-4);
                                         display: inline-block;
                                         margin-bottom: 5px;
                                     }
+
                                     h6 {
                                         max-width: 240px;
                                         font-size: 18px;
                                         line-height: 28px;
+
                                         a {
                                             transition: all 0.4s ease-out;
                                             color: var(--text-white);
+
                                             &:hover {
                                                 color: var(--primary-color-1);
                                             }
                                         }
                                     }
                                 }
+
                                 &:last-child {
                                     margin: 0;
                                 }
                             }
+
                             h4 {
                                 color: var(--text-white);
                             }
                         }
+
                         &-social {
                             ul {
                                 padding: 0;
                                 margin: 0;
+
                                 li {
                                     list-style: none;
                                     display: inline-block;
                                     margin-right: 10px;
+
                                     &:last-child {
                                         margin: 0;
                                     }
+
                                     a {
                                         i {
                                             display: inline-block;
@@ -408,8 +475,9 @@ Menu Bar CSS
                                             text-align: center;
                                             border-radius: 10px;
                                             color: var(--primary-color-1);
-                                            transition: all 0.4s ease-out;   
-                                            background: var(--color-1);  
+                                            transition: all 0.4s ease-out;
+                                            background: var(--color-1);
+
                                             &:hover {
                                                 color: var(--text-white);
                                                 background: var(--primary-color-1);
@@ -421,9 +489,11 @@ Menu Bar CSS
                         }
                     }
                 }
+
                 &-btn {
                     margin-left: 70px;
                 }
+
                 &-contact {
                     display: flex;
                     align-items: center;
@@ -431,6 +501,7 @@ Menu Bar CSS
                     border-left: 1px solid var(--border-color-1);
                     padding-left: 50px;
                     margin-left: 70px;
+
                     &-icon i {
                         color: var(--primary-color-2);
                         border: 1px solid var(--color-12);
@@ -441,21 +512,25 @@ Menu Bar CSS
                         text-align: center;
                         border-radius: 50%;
                     }
+
                     &-info {
                         span {
                             color: var(--color-2);
                         }
+
                         h6 {
                             transition: 0.4s;
                             font-weight: 600;
                             text-transform: lowercase;
+
                             &:hover {
                                 color: var(--primary-color-2);
                             }
                         }
-                    }                    
+                    }
                 }
             }
+
             &-sidebar-popup {
                 position: fixed;
                 width: 460px;
@@ -471,19 +546,23 @@ Menu Bar CSS
                 transition: transform .5s ease .4s;
                 padding: 100px 40px;
                 scrollbar-width: none;
+
                 &::-webkit-scrollbar {
                     display: none;
                 }
+
                 &.active {
                     opacity: 1;
                     visibility: visible;
                     transform: translateX(0%);
                     right: 0;
                 }
+
                 &-icon {
                     margin-left: 70px;
                     padding-left: 70px;
                     position: relative;
+
                     &::before {
                         position: absolute;
                         content: '';
@@ -495,21 +574,26 @@ Menu Bar CSS
                         background: var(--text-heading-color);
                         opacity: 0.1;
                     }
+
                     img {
                         cursor: pointer;
                     }
+
                     &.two {
                         border-left: 1px solid var(--color-8);
+
                         span {
                             border-color: var(--text-white);
-                        }            
+                        }
                     }
                 }
+
                 .sidebar-close-btn {
                     position: absolute;
                     top: 40px;
                     right: 40px;
                     transform: rotate(0);
+
                     i {
                         &::before {
                             background: var(--primary-color-1);
@@ -523,14 +607,18 @@ Menu Bar CSS
                             display: block;
                         }
                     }
+
                     &:hover {
-                        animation: rotate 0.4s ease 0s;			
+                        animation: rotate 0.4s ease 0s;
                     }
                 }
+
                 &-logo {
                     margin-bottom: 30px;
+
                     a {
                         display: inline-block;
+
                         img {
                             max-width: 150px;
                             position: relative;
@@ -538,14 +626,17 @@ Menu Bar CSS
                         }
                     }
                 }
+
                 p {
                     color: var(--color-4);
                 }
             }
+
             &-btn {
                 .btn-six {
                     color: var(--text-white);
                     border-color: var(--text-white);
+
                     &:hover {
                         color: var(--bg-heading-color);
                         border-color: var(--text-white);
@@ -553,50 +644,60 @@ Menu Bar CSS
                 }
             }
         }
+
         &.two {
             align-items: initial;
+
             .header__area-menubar-left-logo {
                 padding-top: 3px;
+
                 .two {
                     display: none;
                 }
-            } 
+            }
+
             .header__area-menubar-right {
                 &-btn {
                     margin-top: -10px;
                 }
+
                 &-box-search-box button {
                     color: var(--primary-color-2);
                 }
             }
         }
+
         &.three {
             background: var(--bg-white);
             padding: 0 40px;
+
             .header__area-menubar-right-box-search-box button {
                 color: var(--primary-color-3);
             }
         }
     }
 }
+
 /*==========================================================================
 Menu Sidebar CSS
 ==========================================================================*/
 .sidebar-overlay {
-	position: fixed;
-	top: 0;
-	right: 0;
-	width: 0;
-	height: 100%;
-	transition: all 0.8s ease-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 100%;
+    transition: all 0.8s ease-out;
     visibility: hidden;
     z-index: 99999;
     background: rgba(24, 24, 24, 0.6);
+
     &.show {
         visibility: visible;
         width: 100%;
     }
 }
+
 /*==========================================================================
 Header Two CSS
 ==========================================================================*/
@@ -605,6 +706,7 @@ Header Two CSS
     position: relative;
     z-index: 99;
     padding: 0 25px;
+
     &::before {
         position: absolute;
         content: '';
@@ -612,12 +714,13 @@ Header Two CSS
         left: 0;
         width: 80%;
         height: 100%;
-        background: url('../../assets/img/shape/before.png');
+        background: url('../../public/frontend/assets/img/shape/before.png');
         background-position: center;
         background-repeat: no-repeat;
-        z-index: -1;        
+        z-index: -1;
 
     }
+
     &::after {
         position: absolute;
         content: '';
@@ -625,43 +728,52 @@ Header Two CSS
         right: 0;
         width: 80%;
         height: 100%;
-        background: url('../../assets/img/shape/after.png');
+        background: url('../../public/frontend/assets/img/shape/after.png');
         background-position: center;
         background-repeat: no-repeat;
-        z-index: -1;        
+        z-index: -1;
 
     }
+
     &-topbar {
-        padding: 9px 0;          
+        padding: 9px 0;
+
         .borders {
             padding: 0 130px;
         }
+
         &-left {
             a {
                 font-weight: 600;
                 font-size: 14px;
-                line-height: 24px;              
+                line-height: 24px;
+
                 i {
                     color: var(--primary-color-2);
                     margin-right: 6px;
                 }
             }
         }
-        &-social {   
+
+        &-social {
             ul {
                 padding: 0;
                 margin: 0;
+
                 li {
                     list-style: none;
                     display: inline-block;
                     margin-right: 15px;
+
                     &:last-child {
                         margin: 0;
                     }
+
                     a {
                         i {
                             color: var(--text-heading-color);
                             transition: .4s;
+
                             &:hover {
                                 color: var(--primary-color-2);
                             }
@@ -672,6 +784,7 @@ Header Two CSS
         }
     }
 }
+
 /*==========================================================================
 Header Three CSS
 ==========================================================================*/
@@ -681,18 +794,20 @@ Header Three CSS
     width: 100%;
     z-index: 999;
 }
+
 /*==========================================================================
 Responsive Menu Css
 ==========================================================================*/
 .responsive-menu {
-	position: absolute;
-	top: 0;
-	right: 0;
-	width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
     z-index: 999;
 }
+
 .mean-container {
-	a.meanmenu-reveal {
+    a.meanmenu-reveal {
         color: var(--text-heading-color);
         width: 25px;
         height: 31px;
@@ -700,106 +815,129 @@ Responsive Menu Css
         padding: 0;
         margin-right: 42px;
         transition: all 0s ease-out 0s;
-		span {	
-			background: var(--text-heading-color);
-			margin-top: 7px;		
+
+        span {
+            background: var(--text-heading-color);
+            margin-top: 7px;
             height: 2px;
-		}
-	}
-	.mean-bar {
-		background: transparent;
-		padding: 0;
-		z-index: 99;
-		a i {
-			font-size: 32px;
-			display: block;
+        }
+    }
+
+    .mean-bar {
+        background: transparent;
+        padding: 0;
+        z-index: 99;
+
+        a i {
+            font-size: 32px;
+            display: block;
             color: var(--text-heading-color);
-		}
-	}
-	.mean-nav {
+        }
+    }
+
+    .mean-nav {
         background: var(--bg-white);
         margin-top: 100px;
         box-shadow: var(--box-shadow-1);
-		ul li a {
+
+        ul li a {
             transition: 0.4s;
+
             &.mean-expand {
                 background: var(--primary-color-1);
                 height: 34px;
                 margin: 0;
                 border: 0;
                 color: var(--text-white);
+
                 &:hover {
                     background: var(--primary-color-1);
                     color: var(--text-white);
                 }
             }
+
             &:hover {
                 color: var(--primary-color-1);
                 background: none;
             }
-		}        
-		.sub-menu li a.mean-expand {
-			background: var(--primary-color-1);
-			height: 34px;
-			color: var(--text-white);
-			&:hover {
-			    background: var(--primary-color-1);
-			}
-		}
+        }
+
+        .sub-menu li a.mean-expand {
+            background: var(--primary-color-1);
+            height: 34px;
+            color: var(--text-white);
+
+            &:hover {
+                background: var(--primary-color-1);
+            }
+        }
+
         ul li a i {
             display: none;
         }
-	}
+    }
 }
+
 .mean-container .mean-nav ul li a,
 .mean-container .mean-nav ul li li a,
-.mean-container .mean-nav li li:first-child > a {
-	color: var(--text-heading-color);
-	font-size: 16px;
-	line-height: 26px;
+.mean-container .mean-nav li li:first-child>a {
+    color: var(--text-heading-color);
+    font-size: 16px;
+    line-height: 26px;
     font-family: var(--heading-font);
-	font-weight: 600;
-	text-transform: capitalize;
-	border-top: 1px solid var(--border-color-2);
-	opacity: 1;
+    font-weight: 600;
+    text-transform: capitalize;
+    border-top: 1px solid var(--border-color-2);
+    opacity: 1;
+
     &:hover {
         color: var(--primary-color-1);
     }
 }
+
 .header__area-menubar.two {
+
     .menu-item-has-children ul li a:hover,
-    .menu-item-has-children > a:hover, 
+    .menu-item-has-children>a:hover,
     .menu-item-has-children ul li li a:hover {
-        color: var(--primary-color-2); 
+        color: var(--primary-color-2);
     }
 }
+
 .header__area-menubar.three {
+
     .menu-item-has-children ul li a:hover,
-    .menu-item-has-children > a:hover, 
+    .menu-item-has-children>a:hover,
     .menu-item-has-children ul li li a:hover {
-        color: var(--primary-color-3); 
+        color: var(--primary-color-3);
     }
 }
+
 .mean-container .mean-nav ul li a.mean-expand:hover {
     color: var(--text-white);
 }
+
 @media (max-width: 1720px) {
     .header__area-menubar {
         &-right-box-contact {
             padding-left: 30px;
             margin-left: 40px;
         }
+
         &-center.two {
             margin-left: 0;
         }
     }
+
     .header__two {
         &::after {
             width: 86%;
         }
+
         &::before {
             width: 82%;
         }
+
         &-topbar {
             .borders {
                 padding: 0 185px;
@@ -808,165 +946,205 @@ Responsive Menu Css
         }
     }
 }
+
 @media (max-width: 1600px) {
     .header__area-menubar {
         &.two {
             .header__area-menubar-right-btn {
                 margin-top: -8px;
             }
+
             .header__area-menubar-right-box-search {
                 display: none;
             }
         }
+
         &-right {
             &-box {
                 &-contact {
                     padding-left: 0;
                     margin-left: 0;
                     border: 0;
-                }                
+                }
+
                 &-btn {
                     margin-left: 45px;
                 }
             }
+
             &-sidebar-popup-icon {
                 margin-left: 45px;
                 padding-left: 45px;
             }
+
             &-btn .btn-six {
                 padding: 14px 32px;
             }
         }
-    }    
+    }
+
     .header__two {
         .borders {
             padding: 0 210px;
         }
+
         &::after {
             width: 88%;
         }
+
         &::before {
             width: 88%;
         }
     }
 }
+
 @media (max-width: 1599px) {
     .header__two {
         &::after {
             width: 93%;
         }
+
         &::before {
             width: 92%;
         }
+
         &-topbar {
             .borders {
                 padding: 0 260px;
             }
         }
-    }    
+    }
 }
+
 @media (max-width: 1399px) {
     .header__area-menubar-right {
         &-btn .btn-six {
             padding: 14px 30px;
         }
+
         &-sidebar-popup {
             padding: 70px 40px;
-        } 
+        }
     }
+
     .header__two {
         padding: 0 10px;
+
         &::after {
             width: 94%;
         }
+
         &::before {
             width: 91%;
         }
+
         &-topbar {
             & .borders {
                 padding: 0 180px;
                 padding-right: 200px;
             }
         }
-    } 
+    }
+
     .header__area-menubar.three {
         padding: 0 20px;
         position: relative;
-    }    
+    }
 }
+
 @media (max-width: 1350px) {
     .header__two {
         background: var(--bg-white);
         padding: 0;
+
         &::before {
             display: none;
-        } 
-        &::after {
-            display: none;        
         }
+
+        &::after {
+            display: none;
+        }
+
         &-topbar {
             background: var(--primary-color-2);
+
             &-left {
                 a {
-                    color: var(--text-white);             
+                    color: var(--text-white);
+
                     i {
                         color: var(--text-white);
                     }
                 }
             }
-            &-social {        
+
+            &-social {
                 ul li a i {
                     color: var(--text-white);
+
                     &:hover {
                         color: var(--text-white);
                     }
                 }
             }
         }
+
         & .borders {
             padding: 0;
         }
-    }   
+    }
+
     .header__area-menubar {
         &-right {
             &-btn {
                 margin: 0;
+
                 .btn-six {
                     color: var(--text-white);
                     background: var(--primary-color-2);
                     border: 0;
                     padding: 17px 43px;
+
                     &::before {
                         background: var(--bg-heading-color);
                     }
+
                     &:hover {
                         color: var(--text-white);
                     }
                 }
             }
         }
+
         &-center-menu.two ul li a {
             padding: 38px 30px;
         }
     }
-    .header__area-menubar {        
+
+    .header__area-menubar {
         &.two {
             align-items: center;
+
             .header__area-menubar {
                 &-left-logo {
                     padding-top: 0;
+
                     .one {
                         display: none;
                     }
+
                     .two {
                         display: block;
                     }
-                } 
+                }
+
                 &-right {
                     display: none;
+
                     &-box-contact {
                         display: none;
                     }
+
                     &-btn {
                         margin-top: 0;
                     }
@@ -974,50 +1152,58 @@ Responsive Menu Css
             }
         }
     }
+
     body.dark-mode {
         .light {
             display: block;
-        }        
+        }
     }
 }
+
 @media (max-width: 1299px) {
     .header__area-menubar-right-box-btn {
         display: none;
     }
 }
+
 @media (max-width: 1199px) {
     .header__area {
         &-menubar {
             &-center {
-                &-menu {                
+                &-menu {
                     ul {
                         li {
-                            a {     
-                                padding: 42px 26px;               
+                            a {
+                                padding: 42px 26px;
                             }
-                            &.menu-item-has-children > {
+
+                            &.menu-item-has-children> {
                                 a {
                                     &::before {
-                                        right: 16px;      
+                                        right: 16px;
                                     }
+
                                     &::after {
-                                        right: 13px;   
+                                        right: 13px;
                                     }
                                 }
                             }
                         }
                     }
                 }
+
                 &-menu.two ul li a {
                     padding: 38px 24px;
                 }
             }
+
             &-right {
                 &-box {
                     &-search {
                         margin-left: 30px;
                     }
                 }
+
                 &-sidebar-popup-icon {
                     padding: 38px 0 38px 40px;
                     margin-left: 30px;
@@ -1026,19 +1212,24 @@ Responsive Menu Css
         }
     }
 }
+
 @media (max-width: 991px) {
     .header__area {
         position: sticky;
         z-index: 9;
+
         &-menubar {
             &-left-logo a img {
                 max-width: 150px;
             }
+
             &-center {
                 display: none;
             }
+
             &-right {
                 display: block;
+
                 &-box {
                     &-search {
                         position: relative;
@@ -1046,63 +1237,80 @@ Responsive Menu Css
                         padding: 39px 35px 39px 0;
                         margin: 0 55px 0 0;
                         border-right: 1px solid var(--border-color-2);
+
                         &-icon i {
                             font-size: 22px;
                         }
+
                         &-box form {
                             width: 90%;
                         }
+
                         &.two {
                             border-color: var(--color-8);
                         }
                     }
                 }
+
                 &-sidebar {
                     display: none;
                 }
-            }    
+            }
+
             .two .header__area-menubar-right {
                 display: block;
+
                 &-box-search {
                     display: block;
                 }
             }
         }
+
         &-menubar.two .header__area-menubar-right {
             display: block;
+
             &-box-search {
                 display: block;
             }
-        }  
+        }
     }
+
     .header__area-menubar.two .header__area-menubar-right {
         .mean-container .mean-nav ul li a.mean-expand {
             background: var(--primary-color-2);
         }
+
         .mean-container a.meanmenu-reveal {
             margin-right: 38px;
         }
+
         &-btn {
             display: none;
         }
     }
+
     .auto__container.pl-35.pr-35 {
         position: relative;
     }
+
     .header__area-menubar.three {
         .mean-container a.meanmenu-reveal {
             margin-right: 20px;
         }
+
         .mean-container .mean-nav ul li a.mean-expand {
             background: var(--primary-color-3);
         }
     }
 }
+
 @media (max-width: 575px) {
     .header__area {
         padding: 0;
+
         &-menubar {
             padding: 0;
+
             &-right {
                 &-box {
                     &-search {
@@ -1110,28 +1318,34 @@ Responsive Menu Css
                         margin: 0 50px 0 0;
                     }
                 }
+
                 .mean-container a.meanmenu-reveal {
                     margin-right: 13px;
                 }
             }
-        }        
+        }
+
         .mean-nav {
             margin-top: 102px;
         }
     }
+
     .header__area-menubar.two .header__area-menubar-right {
         .mean-container a.meanmenu-reveal {
             margin-right: 13px;
         }
     }
+
     .auto__container.pl-35.pr-35 {
         padding: 0 12px;
     }
 }
-@media (max-width: 359px) {    
+
+@media (max-width: 359px) {
     .header__area-menubar.three {
         padding: 0 10px;
     }
+
     .header__area-menubar.three .mean-container a.meanmenu-reveal {
         margin-right: 10px;
     }

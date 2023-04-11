@@ -1,6 +1,6 @@
     <div class="blog__one dark__image section-padding">
         <div class="container">
-            <div class="row align-items-end mb-70">
+            <div class="row align-items-end mb-70 mt-5">
                 <div class="col-xl-7 col-lg-8 lg-mb-30">
                     <div class="blog__one-title lg-t-center">
                         <span class="subtitle-one">From the blog</span>

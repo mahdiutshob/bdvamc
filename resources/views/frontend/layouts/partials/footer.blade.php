@@ -89,11 +89,11 @@
         </div>
         <div class="copyright__one">
             <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 text-start">
+                <div class="d-flex flex-column flex-md-row justify-content-md-between">
+                    <div class="">
                         <p>Copyright 2017-2023 <a href="index.html">BDVAMC</a> - All Rights Reserved.</p>
                     </div>
-                    <div class="col-xl-6 text-end">
+                    <div class="">
                         <p>Development by <a href="index.html">Ignite Tech Solutions</a></p>
                     </div>
                 </div>

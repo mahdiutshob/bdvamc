@@ -54,7 +54,7 @@ Dark CSS
         }
 
         &::after {
-            background: url("../../assets/img/shape/after-dark.png");
+            background: url("../../public/frontend/assets/img/shape/after-dark.png");
             background-position: center;
             background-repeat: no-repeat;
 
@@ -215,7 +215,7 @@ Dark CSS
 
     //========== Team ==========\\
     .team__three-item-image-info-icon::after {
-        background-image: url("../../assets/img/icon/union-dark.png");
+        background-image: url("../../public/frontend/assets/img/icon/union-dark.png");
     }
 
     .testimonial__area-item-client-image img,

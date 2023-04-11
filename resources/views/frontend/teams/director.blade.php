@@ -2,7 +2,7 @@
 
 @section('seo-title')
     {{-- Title of Site --}}
-    <title>Teams Director || BDV Asset Management Company Ltd.</title>
+    <title>Home || BDV Asset Management Company Ltd.</title>
     {{-- Seo Meta Title --}}
     <meta name="description" content="Conbix - Business Consulting HTML5 Template">
     <meta name="keywords" content="Creative, Digital, multipage, landing, freelancer template">
@@ -46,308 +46,225 @@
 @endsection
 
 @section('content')
-	<!-- Page Banner Area Start -->
-    <div class="page__banner" data-background="{{asset('frontend/assets/img/pages/page-banner.jpg')}}">
-		<div class="container">
-			<div class="row">
-				<div class="col-xl-12">
-					<div class="page__banner-content">
-                        <span>Team</span>
-						<ul>
-							<li><a href="index.html">Home</a><span>|</span></li>
-							<li>Our Expert</li>
-						</ul>
-						<h1>Our Expert</h1>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- Page Banner Area End -->
-	<!-- Team Page Area Start -->
-    <div class="team__area section-padding dark__image">
+    <!-- Page Banner Area Start -->
+    <div class="page__banner" data-background="{{ asset('frontend/assets/img/pages/page-banner.jpg') }}">
         <div class="container">
             <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-1.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Courtney Henry</a></h5>
-							<span class="text-eight">Sr. Consultant</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 md-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-2.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Darrell Steward</a></h5>
-							<span class="text-eight">Sr. Manager</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 md-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-3.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Guy Hawkins</a></h5>
-							<span class="text-eight">Jr. Designer</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 xl-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-4.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Elton John</a></h5>
-							<span class="text-eight">Sr. Developer</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 md-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-5.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Thomas Girardi</a></h5>
-							<span class="text-eight">Sr. Consultant</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 lg-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-6.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Erika Jayne</a></h5>
-							<span class="text-eight">Sr. Manager</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6 md-mb-30">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-7.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Devon Lane</a></h5>
-							<span class="text-eight">Sr. Designer</span>
-						</div>
-					</div>
-				</div>
-                <div class="col-xl-3 col-lg-4 col-md-6">
-					<div class="team__area-item">
-						<div class="team__area-item-image">
-							<img src="{{asset('frontend/assets/img/team/team-8.jpg')}}" alt="">
-							<div class="team__area-item-image-icon page">
-                                <div class="team__area-item-image-social">
-                                    <ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-behance"></i></a></li>
-									</ul>
-                                </div>
-								<span><i class="fas fa-share-alt"></i></span>
-                            </div>
-						</div>
-						<div class="team__area-item-content page">
-							<h5><a href="team-single.html">Ralph Edwards</a></h5>
-							<span class="text-eight">Jr. Developer</span>
-						</div>
-					</div>
-				</div>
-            </div>
-            <div class="row mt-70">
-                <div class="col-xl-12 t-center">
-                    <h6>Consulting With our Expert Team Members <a href="#">schedule meeting</a></h6>
-                </div>
-            </div>
-        </div>
-    </div>
-	<!-- Team Page Area End -->
-	<!-- Faq Area Start -->
-    <div class="faq__area section-padding pt-0">
-        <div class="container">
-            <div class="row mb-70">
                 <div class="col-xl-12">
-					<div class="faq__area-title t-center">
-						<span class="subtitle-one">Frequently Ask Questions</span>
-						<h2>What does Conbix do?</h2>
-					</div>
+                    <div class="page__banner-content">
+                        <span>Team</span>
+                        <ul>
+                            <li><a href="index.html">Home</a><span>|</span></li>
+                            <li>Team Two</li>
+                        </ul>
+                        <h1>Team Two</h1>
+                    </div>
                 </div>
             </div>
+        </div>
+    </div>
+    <!-- Page Banner Area End -->
+    <!-- Team Page Area Start -->
+    <div class="team__two section-padding">
+        <div class="container">
             <div class="row">
-                <div class="col-xl-6 xl-mb-10">
-                    <div class="faq-collapse">
-                        <div class="faq-collapse-item">
-                            <div class="faq-collapse-item-card">
-                                <div class="faq-collapse-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>How do you manage consulting effectively?</h6>
-                                    <i class="far fa-plus"></i>
-                                </div>
-                                <div class="faq-collapse-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
-                            </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-9.jpg') }}" alt="">
                         </div>
-                        <div class="faq-collapse-item">
-                            <div class="faq-collapse-item-card">
-                                <div class="faq-collapse-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>How do consultants solve problems?</h6>
-                                    <i class="far fa-plus"></i>
-                                </div>
-                                <div class="faq-collapse-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faq-collapse-item">
-                            <div class="faq-collapse-item-card">
-                                <div class="faq-collapse-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>How can I improve my consulting skills?</h6>
-                                    <i class="far fa-plus"></i>
-                                </div>
-                                <div class="faq-collapse-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="faq-collapse-item">
-                            <div class="faq-collapse-item-card">
-                                <div class="faq-collapse-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>What is required of a consultant?</h6>
-                                    <i class="far fa-minus"></i>
-                                </div>
-                                <div class="faq-collapse-item-card-header-content active">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Steve Rhodes</a></h4>
+                            <span class="text-eight">CEO Founder</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6">
-                    <div class="faq-accordion">
-                        <div class="faq-accordion-item">
-                            <div class="faq-accordion-item-card">
-                                <div class="faq-accordion-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>Do you need a degree to become a consultant?</h6>
-                                    <i class="far fa-minus"></i>
-                                </div>
-                                <div class="faq-accordion-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-10.jpg') }}" alt="">
+                        </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Cansn Mina</a></h4>
+                            <span class="text-eight">Sr. developer</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="faq-accordion-item">
-                            <div class="faq-accordion-item-card">
-                                <div class="faq-accordion-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>Is a consulting business profitable?</h6>
-                                    <i class="far fa-plus"></i>
-                                </div>
-                                <div class="faq-accordion-item-card-header-content active">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-11.jpg') }}" alt="">
+                        </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Freddie Mercury</a></h4>
+                            <span class="text-eight">Content Writer</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="faq-accordion-item">
-                            <div class="faq-accordion-item-card">
-                                <div class="faq-accordion-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>Can you scale a consulting business?</h6>
-                                    <i class="far fa-plus"></i>
-                                </div>
-                                <div class="faq-accordion-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
-                                </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-12.jpg') }}" alt="">
+                        </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Balm Bayrak</a></h4>
+                            <span class="text-eight">Sr. Content Writer</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="faq-accordion-item">
-                            <div class="faq-accordion-item-card">
-                                <div class="faq-accordion-item-card-header">
-                                    <h6><span class="far fa-question-circle"></span>How do I sell myself as a consultant?</h6>
-                                    <i class="far fa-plus"></i>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-13.jpg') }}" alt="">
+                        </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Courtney Henry</a></h4>
+                            <span class="text-eight">Sr. Consultant</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6">
+                    <div class="team__two-item">
+                        <div class="team__two-item-image">
+                            <img src="{{ asset('frontend/assets/img/team/team-14.jpg') }}" alt="">
+                        </div>
+                        <div class="team__two-item-content">
+                            <h4><a href="team-single.html">Derya Kurtulus</a></h4>
+                            <span class="text-eight">Project Manager</span>
+                            <div class="team__two-item-content-social">
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-vimeo-v"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team Page Area End -->
+    <!-- Faq Area Start -->
+    <div class="faq__two section-padding pt-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-xxl-7 col-lg-6 lg-mb-30">
+                    <div class="faq__two-left">
+                        <div class="faq__two-left-image">
+                            <img src="{{ asset('frontend/assets/img/pages/faq-1.jpg') }}" alt="">
+                            <img class="faq__two-left-image-one" src="{{ asset('frontend/assets/img/pages/faq-2.jpg') }}"
+                                alt="">
+                            <div class="faq__two-left-image-question left-right-animate">
+                                <img src="{{ asset('frontend/assets/img/icon/questions.png') }}" alt="">
+                                <h6>Have any questions?</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-5 col-lg-6">
+                    <div class="faq__two-right">
+                        <div class="faq__two-right-title">
+                            <span class="subtitle-one">Faq Questions</span>
+                            <h2>Have any questions And answers</h2>
+                        </div>
+                        <div class="faq__collapse mt-35">
+                            <div class="faq__collapse-item">
+                                <div class="faq__collapse-item-card">
+                                    <div class="faq__collapse-item-card-header">
+                                        <h6><span class="far fa-question-circle"></span>How do you prioritize your work?
+                                        </h6>
+                                        <i class="far fa-plus"></i>
+                                    </div>
+                                    <div class="faq__collapse-item-card-header-content display-none">
+                                        <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus
+                                            ipsum, tempor quis mattis in, ornare ut tortor.</p>
+                                    </div>
                                 </div>
-                                <div class="faq-accordion-item-card-header-content display-none">
-                                    <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus ipsum, tempor quis mattis in, ornare ut tortor. Praesent condimentum eu turpis ut hendrerit.</p>
+                            </div>
+                            <div class="faq__collapse-item">
+                                <div class="faq__collapse-item-card">
+                                    <div class="faq__collapse-item-card-header">
+                                        <h6><span class="far fa-question-circle"></span>Open a Business Bank Account?</h6>
+                                        <i class="far fa-minus"></i>
+                                    </div>
+                                    <div class="faq__collapse-item-card-header-content active">
+                                        <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus
+                                            ipsum, tempor quis mattis in, ornare ut tortor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__collapse-item">
+                                <div class="faq__collapse-item-card">
+                                    <div class="faq__collapse-item-card-header">
+                                        <h6><span class="far fa-question-circle"></span>What is required of a consultant?
+                                        </h6>
+                                        <i class="far fa-plus"></i>
+                                    </div>
+                                    <div class="faq__collapse-item-card-header-content display-none">
+                                        <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus
+                                            ipsum, tempor quis mattis in, ornare ut tortor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="faq__collapse-item">
+                                <div class="faq__collapse-item-card">
+                                    <div class="faq__collapse-item-card-header">
+                                        <h6><span class="far fa-question-circle"></span>How do consultants solve problems?
+                                        </h6>
+                                        <i class="far fa-plus"></i>
+                                    </div>
+                                    <div class="faq__collapse-item-card-header-content display-none">
+                                        <p>Pellentesque eget dui tellus. Donec semper tincidunt egestas. Vivamus lectus
+                                            ipsum, tempor quis mattis in, ornare ut tortor.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -356,5 +273,5 @@
             </div>
         </div>
     </div>
-	<!-- Faq Area End -->
+    <!-- Faq Area End -->
 @endsection

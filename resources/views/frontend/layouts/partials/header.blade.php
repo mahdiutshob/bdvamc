@@ -3,26 +3,26 @@
             <div class="header__area-menubar">
                 <div class="header__area-menubar-left">
                     <div class="header__area-menubar-left-logo">
-                        <a href="{{route('index')}}"><img class="dark-n" src="{{ asset('frontend/assets/img/logo-1.png') }}"
-                                alt=""><img class="light-n" src="{{ asset('frontend/assets/img/logo-2.png') }}"
-                                alt=""></a>
+                        <a href="{{ route('index') }}"><img class="dark-n"
+                                src="{{ asset('frontend/assets/img/logo-1.png') }}" alt=""><img class="light-n"
+                                src="{{ asset('frontend/assets/img/logo-2.png') }}" alt=""></a>
                     </div>
                 </div>
                 <div class="header__area-menubar-center">
                     <div class="header__area-menubar-center-menu menu-responsive">
                         <ul id="mobilemenu">
-                            <li><a href="{{route('index')}}">Home</a></li>
+                            <li><a href="{{ route('index') }}">Home</a></li>
                             <li class="menu-item-has-children"><a href="#">ABOUT US</a>
                                 <ul class="sub-menu">
-                                    <li><a href="{{route('about')}}">ABOUT COMPANY</a></li>
+                                    <li><a href="{{ route('about') }}">ABOUT COMPANY</a></li>
                                     <li class="menu-item-has-children"><a href="#">TEAMS</a>
                                         <ul class="sub-menu">
-                                            <li><a href="{{route('team.director')}}">BOARD OF DIRECTORS</a></li>
-                                            <li><a href="{{route('about')}}">MANAGEMENT TEAM</a></li>
+                                            <li><a href="{{ route('team.director') }}">BOARD OF DIRECTORS</a></li>
+                                            <li><a href="{{ route('team.management') }}">MANAGEMENT TEAM</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="index-two.html">WHY CHOOSE BDVAMC?</a></li>
-                                    <li><a href="index-three.html">MISSION & VISSION</a></li>
+                                    <li><a href="{{ route('choose') }}">WHY CHOOSE BDVAMC?</a></li>
+                                    <li><a href="{{ route('mission') }}">MISSION & VISSION</a></li>
                                 </ul>
                             </li>
 
@@ -37,21 +37,16 @@
                                 </ul>
                             </li>
 
-                            <li><a href="{{route('service')}}">Services</a></li>
+                            <li><a href="{{ route('service') }}">Services</a></li>
 
                             <li class="menu-item-has-children"><a href="#">Knowledge</a>
                                 <ul class="sub-menu">
-                                    <li class="menu-item-has-children"><a href="#">News & Events</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="project-two.html">News</a></li>
-                                            <li><a href="project-three.html">Events</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="project-two.html">Frequently Asked Questions</a></li>
+                                    <li><a href="{{ route('blogs') }}">News & Events</a></li>
+                                    <li><a href="{{ route('faq') }}">Frequently Asked Questions</a></li>
                                 </ul>
                             </li>
 
-                            <li><a href="pricing.html">Contact US</a></li>
+                            <li><a href="{{ route('contact') }}">Contact US</a></li>
                         </ul>
                     </div>
                 </div>
@@ -86,7 +81,11 @@
                                 <a href="index.html"> <img src="{{ asset('frontend/assets/img/logo-2.png') }}"
                                         alt=""> </a>
                             </div>
-                            <p>BDV Asset Management Company Limited (BDV AMC) Is A Subsidiary Of BD Venture Limited (One Of The Pioneered Venture Capital And Private Equity Companies Owned By Several Banks, NBFIs, Insurance Companies And Other Institutes. BDV AMC Received The Asset Management Company (AMC) License From The Bangladesh Securities & Exchange Commission (BSEC) In February 2017.</p>
+                            <p>BDV Asset Management Company Limited (BDV AMC) Is A Subsidiary Of BD Venture Limited (One
+                                Of The Pioneered Venture Capital And Private Equity Companies Owned By Several Banks,
+                                NBFIs, Insurance Companies And Other Institutes. BDV AMC Received The Asset Management
+                                Company (AMC) License From The Bangladesh Securities & Exchange Commission (BSEC) In
+                                February 2017.</p>
                             <div class="header__area-menubar-right-box-sidebar-popup-contact">
                                 <h4 class="mb-30">Get In Touch</h4>
                                 <div class="header__area-menubar-right-box-sidebar-popup-contact-item">
@@ -114,8 +113,8 @@
                                     <div class="header__area-menubar-right-box-sidebar-popup-contact-item-content">
                                         <span>Office Address</span>
                                         <h6><a href="#">Flat 6B (6'th Floor), 36 Delta Dahlia,
-                                            Kamal Ataturk Avenue,
-                                            Banani, Dhaka - 1212</a></h6>
+                                                Kamal Ataturk Avenue,
+                                                Banani, Dhaka - 1212</a></h6>
                                     </div>
                                 </div>
                             </div>

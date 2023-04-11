@@ -54,6 +54,10 @@
     @include('frontend.home.about')
     {{-- About Area End --}}
 
+    {{-- Work Area Start --}}
+    @include('frontend.home.work')
+    {{-- Work Area End --}}
+
     {{-- Services Area Start --}}
     @include('frontend.home.service')
     {{-- Services Area End --}}
@@ -81,6 +85,7 @@
     {{-- Emargency Help Area Start --}}
     @include('frontend.home.emargency')
     {{-- Emargency Help Area End --}}
+
     {{-- Blog Area Start --}}
     @include('frontend.home.blog')
     {{-- Blog Area End --}}
