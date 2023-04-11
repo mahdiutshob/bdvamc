@@ -41,13 +41,13 @@ Dark CSS
 
     //========== Banner ==========\\
     .banner__three {
-        background-image: url("../../assets/img/shape/dark-bg.jpg") !important;
+        background-image: url("../../public/frontend/assets/img/shape/dark-bg.jpg") !important;
     }
 
     //========== Header ==========\\
     .header__two {
         &::before {
-            background: url("../../assets/img/shape/before-dark.png");
+            background: url("../../public/frontend/assets/img/shape/before-dark.png");
             background-position: center;
             background-repeat: no-repeat;
 

@@ -3,8 +3,7 @@
             <div class="row">
                 <div class="col-xl-6 col-md-6">
                     <div class="top__bar-left">
-                        <a href="#"><i class="far fa-map-marker-alt"></i>Flat 6B (6'th Floor), 36 Delta Dahlia,
-                            Kamal Ataturk Avenue, Banani, Dhaka - 1212.</a>
+                        <a href="#"><i class="fal fa-phone-alt icon-animation"></i> +88 01718 507989, +88 01762 598217</a>
                     </div>
                 </div>
                 <div class="col-xl-6 col-md-6">
